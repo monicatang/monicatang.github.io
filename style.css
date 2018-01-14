@@ -1,5 +1,5 @@
 #wrapper {
-	padding: 50px;
+	padding: 30px;
 }
 
 h1 {
@@ -16,7 +16,8 @@ h2 {
 p {
 	font-family: 'Roboto', sans-serif;
 	font-size:14px;
-	width: 600px;
+	max-width:600px;
+	width:90%;
 	font-weight: 100;
 }
 
