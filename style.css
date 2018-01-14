@@ -1,0 +1,19 @@
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 60;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 23;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size:14;
+}
+
+a {
+	color: #274b7d;
+}
