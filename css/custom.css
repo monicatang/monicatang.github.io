@@ -79,7 +79,20 @@ a:hover {
   max-width: 900px;
 }
 
+
 @media screen and (max-width: 768px) {
   .sidebar {float:none; text-align: center;}
   .content {text-align: center;}
+}
+
+#logo {
+  width: 40px; 
+  height: 40px; 
+  margin-left: 40px; 
+  margin-right: auto; 
+  display: block;
+}
+
+@media screen and (max-width: 1000px) {
+  #logo {margin-left: 0px;}
 }
