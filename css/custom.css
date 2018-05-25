@@ -1,0 +1,84 @@
+
+
+h1 {
+	font-family: 'Poppins', serif;
+  font-weight:bold;
+  font-size: 40px;
+
+}
+
+h3{
+  font-weight: normal;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	font-weight: 100;
+}
+
+a {
+  color: #000;
+  font-weight: 500;
+}
+
+a:hover, .nav-link:hover{
+  color: #ff6d74 !important;
+}
+
+.active {
+  font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+
+}
+
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.card {
+  border-style: none;
+
+}
+.card-img-top:hover{
+  opacity: 0.5;
+
+}
+
+.card-img-top{
+  object-fit: cover; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  width: 100%;
+  max-height: 250px;
+  margin-bottom: 1rem;
+}
+
+.circle_link {
+  width: 28px; 
+  height: 28px; 
+  display: inline-block;
+  margin: 3px;
+}
+
+.circle_link:hover{
+  opacity: 0.5;
+  
+}
+
+.sidebar {
+  float: left; 
+  margin-right: 30px;
+}
+
+.content {
+
+  text-align: left;
+  max-width: 900px;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {float:none; text-align: center;}
+  .content {text-align: center;}
+}
