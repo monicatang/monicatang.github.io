@@ -1,7 +1,7 @@
 
 
 h1 {
-	font-family: 'Poppins', serif;
+	font-family: 'Poppins', sans-serif;
   font-weight:bold;
   font-size: 40px;
 
@@ -9,11 +9,20 @@ h1 {
 
 h3{
   font-weight: normal;
+  font-family:'Poppins', sans-serif;
+}
+
+h4{
+  font-weight: normal;
+  font-family:'Roboto', sans-serif;
 }
 
 p {
 	font-family: 'Roboto', sans-serif;
 	font-size:14px;
+  max-width: 900px;
+  line-height: 21px;
+
 
 }
 
@@ -49,11 +58,17 @@ a:hover {
 }
 
 .card-img-top{
-  object-fit: cover; /* Do not scale the image */
-  object-position: center; /* Center the image within the element */
+ /* Do not scale the image */
+  object-fit: cover;
+  object-position: center;  
   width: 100%;
   max-height: 250px;
   margin-bottom: 1rem;
+}
+
+.card-img-top.scale{
+  object-fit: contain;
+  max-height: 300px;
 }
 
 .circle_link {
