@@ -68,7 +68,7 @@ a:hover {
 
 .card-img-top.scale{
   object-fit: contain;
-  max-height: 300px;
+  max-height: 250px;
 }
 
 .circle_link {
