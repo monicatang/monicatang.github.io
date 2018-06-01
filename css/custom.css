@@ -71,6 +71,35 @@ a:hover {
   max-height: 250px;
 }
 
+.modal-img {
+  max-height: 550px;
+
+}
+
+.modal-dialog {
+    position: relative;
+    display: table; 
+    overflow-y: auto;    
+    overflow-x: auto;
+    width: auto;
+    min-width: 300px;
+  }
+
+@media screen and (max-width: 450px) {
+    .modal-img{
+        max-width: 350px;
+        display:block;
+        margin-left: auto;
+        margin-right:auto;
+        margin-bottom:30px;
+    }
+    .modal-dialog{
+        display:block;
+        margin-left: auto;
+        margin-right:auto;
+    }
+}
+
 .circle_link {
   width: 28px; 
   height: 28px; 
