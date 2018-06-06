@@ -27,7 +27,8 @@ p {
 }
 
 a {
-  color: #000;
+  color: #333;
+  font-weight: 600;
   font-family:'Roboto';
 
 }
@@ -139,4 +140,10 @@ a:hover {
 
 @media screen and (max-width: 1000px) {
   #logo {margin-left: 0px;}
+}
+
+.dev-img{
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 2rem;
 }
