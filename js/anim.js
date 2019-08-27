@@ -7,5 +7,5 @@ function getRandColor(brightness){
 }
 
 function setRandomColor() {
-    $("#headline").css("color", getRandColor(4));
+    $("#headline").css("color", getRandColor(5));
 }

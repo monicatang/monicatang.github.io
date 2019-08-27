@@ -52,7 +52,7 @@
     background: #203A43;
   }
   50% {
-    background: #543921;
+    background: #300c30;
   }
   75% {
     background: #373B44;
@@ -70,7 +70,7 @@
     background: #203A43;
   }
   50% {
-    background: #543921;
+    background: #300c30;
   }
   75% {
     background: #373B44;
@@ -90,7 +90,7 @@ body {
   font-size:2.5em;
   font-family: 'Roboto Slab', serif;
   letter-spacing: .02em;
-  color: rgb(182,184,143);
+  color: #fdff73;
   -webkit-animation: headline-animation 2s;
           animation: headline-animation 2s;
   transition:0.5s ease;
@@ -107,14 +107,12 @@ p {
 	font-size: 14px;
   line-height: 25px;
   color: #fff;
-  opacity: 0.8;
 }
 
 a {
-  color: #6DD5FA;
+  color: #80ffca;
   font-family:'Roboto Slab';
   text-decoration: none;
-  opacity:1;
 }
 
 a:hover {
