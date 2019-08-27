@@ -30,17 +30,17 @@
     opacity: 0.6;
   }
   100% {
-    opacity: 0.9;
+    opacity: 1;
   }
 }
 
 @keyframes headline-animation {
   0% {
     letter-spacing: -0.3em;
-    opacity: 0;
+    opacity: 0.6;
   }
   100% {
-    opacity: 0.9;
+    opacity: 1;
   }
 }
 
@@ -107,7 +107,7 @@ p {
 	font-size: 14px;
   line-height: 25px;
   color: #fff;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 a {
