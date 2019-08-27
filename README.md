@@ -1,2 +1,2 @@
 # Monica Tang
-Personal website under construction!
+Personal website developed from scratch.
