@@ -148,13 +148,7 @@ a:visited {
         animation: content-animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-@media screen and (max-width: 1000px) {
-  #container {
-    max-width: 60%;
-  }
-}
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   #container {
     max-width: 100%;
     margin-right: 10%;
