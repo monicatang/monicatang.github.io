@@ -1,4 +1,4 @@
-@-webkit-keyframes content-animation {
+@-webkit-keyframes bio-animation {
   0% {
     -webkit-transform: translateY(-50px);
             transform: translateY(-50px);
@@ -11,7 +11,7 @@
   }
 }
 
-@keyframes content-animation {
+@keyframes bio-animation {
   0% {
     -webkit-transform: translateY(-50px);
             transform: translateY(-50px);
@@ -85,6 +85,11 @@ body {
           animation: gradient 12s linear infinite alternate both;
 }
 
+#profilephoto {
+  border-radius:50%;
+  width:150px;
+}
+
 #headline {
   text-decoration: none;
   font-size:2.5em;
@@ -135,20 +140,21 @@ a:visited {
 }
 
 #container {
-  margin-left: 10%;
-  margin-top: 13%;
+  margin-left: 8%;
+  margin-top: 8%;
   text-align: left;
   max-width: 40%;
 }
 
-#content {
-  -webkit-animation: content-animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: content-animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+#bio {
+  -webkit-animation: bio-animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: bio-animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   #container {
     max-width: 100%;
-    margin-right: 10%;
+    margin-right: 8%;
+    text-align: center;
   }
 }
