@@ -88,6 +88,8 @@ body {
 #profilephoto {
   border-radius:50%;
   width:150px;
+  -webkit-animation: bio-animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: bio-animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 #headline {
