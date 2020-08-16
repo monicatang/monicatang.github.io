@@ -86,17 +86,18 @@ body {
 }
 
 #profilephoto {
-  border-radius:50%;
-  width:150px;
+  border-radius: 50%;
+  width: 150px;
   -webkit-animation: bio-animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
           animation: bio-animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-#headline {
+h1 {
   text-decoration: none;
-  font-size:2.5em;
+  font-size: 2.5em;
   font-family: 'Roboto Slab', serif;
   letter-spacing: .02em;
+  font-weight: 400;
   color: #eae7a2;
   -webkit-animation: headline-animation 2s;
           animation: headline-animation 2s;
@@ -105,21 +106,22 @@ body {
   -webkit-transition:0.5s ease;
 }
 
-#headline:hover {
+h1:hover {
   cursor: pointer;
 }
 
-p {
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-  line-height: 25px;
+p, ul {
+	font-family: 'Hind', sans-serif;
+	font-size: 0.93em;
+  line-height: 1.8em;
   color: #fff;
 }
 
-a {
+a, my-email {
   color: #80ffca;
   font-family:'Roboto Slab';
   text-decoration: none;
+  font-size: 0.93em;
 }
 
 a:hover {
